@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+    font-family: 'FOT-NewRodinPro-DB';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/FOT-NewRodinPro-DB.otf") format("opentype")
+}
 a:link,
 a:visited {
     color: #ffd040;
