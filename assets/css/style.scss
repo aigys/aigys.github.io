@@ -4,10 +4,29 @@
 @import "{{ site.theme }}";
 
 @font-face {
-    font-family: 'FOT-NewRodinPro-DB';
+    font-family: 'SkipStd';
     font-weight: 400;
     font-style: normal;
+    src: url("../fonts/FOT-SkipStd-B.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'NewRodinPro';
+    font-weight: 100;
+    font-style: normal;
     src: url("../fonts/FOT-NewRodinPro-DB.otf") format("opentype")
+}
+@font-face {
+    font-family: 'NewRodinPro';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/FOT-NewRodinPro-B.otf") format("opentype")
+}
+@font-face {
+    font-family: 'NewRodinPro';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/FOT-NewRodinPro-EB.otf") format("opentype")
 }
 a:link,
 a:visited {
@@ -21,7 +40,7 @@ a:hover {
 
 body {
     background-color: #290911;
-    font-family: "FOT-NewRodinPro-DB", "Fang Song";
+    font-family: "SkipStd", "Fang Song";
     font-size: 10pt;
     color: #fff4e0;
 }
