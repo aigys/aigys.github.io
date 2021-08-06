@@ -2,94 +2,94 @@
 ---
 
 @import "";
-			a:link, a:visited{
-				color: #ffd040;
-				text-decoration: underline dotted;
-			}
-			
-			a:hover {
-				text-decoration: underline solid;
-			}
-			
-			body {
-				background-color: #290911;
-				font-family: "MS Gothic", "Fang Song";
-				font-size: 10pt;
-				color: #fff4e0;
-			}
-			
-			hr {
-				border: 0;
-				border-bottom: 1px dotted #290911;
-			}
-			
-			img {
-				max-width: 100%;
-			}
-			
-			ol {
-				list-style: none;
-				padding-left: 0;
-			}
-		
-			#dated {
-			    color: #403844;
-			    margin-left: 8px;
-			    margin-top: 16px;
-			}
-			
-			#datetri {
-			    position: relative;
-			    top: 4px;
-			}
-			
-			#datetxt {
-			    position: relative;
-			    top: -5px;
-			    margin-left: 8px;
-			}
-			
-			#description {
-			    text-align: center;
-			}
-			
-			#quoted {
-				font-weight: bold;
-				font-size: 14pt;
-				text-align: center;
-			    color: #e0e0ff;
-			}
-			
-			#linked, #titled {
-				font-weight: bold;
-				font-size: 14pt;
-				text-align: center;
-			}
-			
-			#tagged {
-			    width: 708px;
-			    color: #403844;
-			    text-align: right;
-			    margin-left: 8px;
-			    margin-bottom: 16px;
-			    position: relative;
-			    top: -2px;
-			}
-			
-			#tagged li {
-			    display: inline-block;
-			    margin-left: 8px;
-			}
-			
-			#tagtri {
-			    float: right;
-			    position: relative;
-			    top: -8px;
-			    right: 8px;
-			}
-			
-	    	.likereblog {
-	    	    float: right;
+a:link, a:visited{
+color: #ffd040;
+text-decoration: underline dotted;
+}
+
+a:hover {
+text-decoration: underline solid;
+}
+
+body {
+background-color: #290911;
+font-family: "MS Gothic", "Fang Song";
+font-size: 10pt;
+color: #fff4e0;
+}
+
+hr {
+border: 0;
+border-bottom: 1px dotted #290911;
+}
+
+img {
+max-width: 100%;
+}
+
+ol {
+list-style: none;
+padding-left: 0;
+}
+
+#dated {
+color: #403844;
+margin-left: 8px;
+margin-top: 16px;
+}
+
+#datetri {
+position: relative;
+top: 4px;
+}
+
+#datetxt {
+position: relative;
+top: -5px;
+margin-left: 8px;
+}
+
+#description {
+text-align: center;
+}
+
+#quoted {
+font-weight: bold;
+font-size: 14pt;
+text-align: center;
+    color: #e0e0ff;
+}
+
+#linked, #titled {
+font-weight: bold;
+font-size: 14pt;
+text-align: center;
+}
+
+#tagged {
+    width: 708px;
+    color: #403844;
+    text-align: right;
+    margin-left: 8px;
+    margin-bottom: 16px;
+    position: relative;
+    top: -2px;
+}
+
+#tagged li {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+#tagtri {
+    float: right;
+    position: relative;
+    top: -8px;
+    right: 8px;
+}
+
+    .likereblog {
+        float: right;
             }
 
             .likereblog ul,
@@ -104,61 +104,61 @@
                 padding-left: 12px;
             }
 
-			.odd,
-			.even {
-			   list-style: none;
-			   margin-left: 0;
-			   padding-left: 1em;
-			   text-indent: -3em;
-			}
-			
-			.odd:before,
-			.even:before {
-				content: "・";
-			}
-			
-			.even {
-				color: #e0e0ff;
-			}
-			
-			.postbg {
-				background-color: #361921;
-				padding: 8px 8px;
-				margin: 0px 8px;
-				width: 720px;
-			}
-			
-			.postbg li {
-			   list-style: none;
-			   margin-left: 0;
-			   padding-left: 1em;
-			   text-indent: -2em;
-			}
-			
-			.postbg li:before,
-			.pages li:before {
-				content: "・";
-			}
-			
-			.postmeta {
-			    color: #e0e0ff;
-				background-color: #361921;
-				border-top: 1px dotted #2c2430;
-				padding: 8px 8px;
-				margin: 0px 8px 8px 8px;
-				width: 720px;
-			}
-			
-			.postmeta a{
-			    color: #e0e0ff;
-			}
-			
-			.postcont {
-				width: 752px;
-				position: relative;
-				margin: auto;
-			}
-			
+.odd,
+.even {
+   list-style: none;
+   margin-left: 0;
+   padding-left: 1em;
+   text-indent: -3em;
+}
+
+.odd:before,
+.even:before {
+content: "・";
+}
+
+.even {
+color: #e0e0ff;
+}
+
+.postbg {
+background-color: #361921;
+padding: 8px 8px;
+margin: 0px 8px;
+width: 720px;
+}
+
+.postbg li {
+   list-style: none;
+   margin-left: 0;
+   padding-left: 1em;
+   text-indent: -2em;
+}
+
+.postbg li:before,
+.pages li:before {
+content: "・";
+}
+
+.postmeta {
+    color: #e0e0ff;
+background-color: #361921;
+border-top: 1px dotted #2c2430;
+padding: 8px 8px;
+margin: 0px 8px 8px 8px;
+width: 720px;
+}
+
+.postmeta a{
+    color: #e0e0ff;
+}
+
+.postcont {
+width: 752px;
+position: relative;
+margin: auto;
+}
+
             .postspace {
                 height: 128px;
             }
@@ -177,75 +177,75 @@
                 display: block;
             }
             
-			.topbar {
-			    position: fixed;
-			    top: 0px;
-			    width: 100%;
-			    z-index: 2;
-			    background-color: #290911;
+.topbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    background-color: #290911;
                 
-			    border-bottom: 1px dotted #ffd040;
-			    padding-bottom: 8px;
-			    margin-bottom: 8px;
-			}
-			
-			.topbar p {
-				font-size: 10pt;
-				color: #fff4e0;
-				text-align: center;
-			}
-			
-			.pages {
-			    text-align: center;
-			}
-			
+    border-bottom: 1px dotted #ffd040;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.topbar p {
+font-size: 10pt;
+color: #fff4e0;
+text-align: center;
+}
+
+.pages {
+    text-align: center;
+}
+
             .pages ul {
                 display: inline-block;
                 margin: 0;
                 padding: 0;
             }
-			
-			.pages li {
-			   list-style: none;
-			   float: left;
-			   margin: 0px 1em;
-			}
-			
-			.txt-title {
-				font-weight: bold;
-				font-size: 14pt;
-				text-align: center;
-			}
-			
-			.photoset {
-			    display: block;
-			    margin: 0 auto;
-			}
-			
-			.nav a {
-			    text-align: center;
-			    width: 80px;
-			    background-color: #361921; 
-			    padding: 8px 16px;
-			}
-			
-			.jump {
-			    color: #361921;
-			    display: inline-block;
-			    position: absolute; 
-			    left: 0px;
-			    right: 0px;
-			    top: 0px;
-			    text-align: center;
-			}
-			
-			.jump ul {
-			    margin: 0;
-			    padding: 0;
-			}
 
-			.jump li {
-			    display: inline;
-			    list-style: none;
-			    margin: 0px 8px;
-			}
+.pages li {
+   list-style: none;
+   float: left;
+   margin: 0px 1em;
+}
+
+.txt-title {
+font-weight: bold;
+font-size: 14pt;
+text-align: center;
+}
+
+.photoset {
+    display: block;
+    margin: 0 auto;
+}
+
+.nav a {
+    text-align: center;
+    width: 80px;
+    background-color: #361921; 
+    padding: 8px 16px;
+}
+
+.jump {
+    color: #361921;
+    display: inline-block;
+    position: absolute; 
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+.jump ul {
+    margin: 0;
+    padding: 0;
+}
+
+.jump li {
+    display: inline;
+    list-style: none;
+    margin: 0px 8px;
+}
